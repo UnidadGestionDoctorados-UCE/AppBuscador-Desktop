@@ -504,7 +504,7 @@ Elimina:
 - Marielena Gonzalez
 - Mariel Milan
 
-### Versión Anterior (2024-2026)
+### Versión Anterior (2024-2025)
 - Kevin Pozo
 - Jordy Chamba
 - Freddy Tapia
