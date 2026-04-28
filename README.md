@@ -2,11 +2,11 @@
 
 ![Version](https://img.shields.io/badge/version-2.0-blue)
 ![Python](https://img.shields.io/badge/python-3.8+-blue)
-![License](https://img.shields.io/badge/license-GPL--3.0-green)
+![License](https://img.shields.io/badge/license-Apache--2.0-green)
 
 ## 📋 Descripción
 
-**AppBuscador** es una aplicación de escritorio modular y escalable para la búsqueda y gestión de documentos de programas de doctorado y oficios administrativos de la Universidad Central del Ecuador. 
+**AppBuscador** es una aplicación de escritorio modular y escalable para la búsqueda y gestión de documentos de programas de doctorado y oficios administrativos de la Universidad Central del Ecuador.
 
 La aplicación proporciona una interfaz intuitiva basada en **Tkinter** que permite a los usuarios autenticarse, buscar documentos de manera eficiente y acceder a oficios con filtros avanzados.
 
@@ -79,7 +79,7 @@ AppBuscador/
 ├── requerimientos.txt               # Requisitos funcionales pendientes
 ├── requirements-build.txt           # Dependencias para compilación
 ├── requirements.txt                 # Dependencias de ejecución
-└── LICENSE                          # Licencia GPL-3.0
+└── LICENSE                          # Licencia Apache 2.0
 ```
 
 ---
@@ -194,15 +194,15 @@ AppBuscador/
 └──────────────────────────────────────┘
          │
          ▼
-  search_service.py
-    - Filtrar resultados
-    - Buscar por criterios
+   search_service.py
+     - Filtrar resultados
+     - Buscar por criterios
          │
          ▼
-  file_service.py
-    - Abrir PDF (con visor externo)
-    - Descargar archivo
-    - Descargar expediente completo
+   file_service.py
+     - Abrir PDF (con visor externo)
+     - Descargar archivo
+     - Descargar expediente completo
 ```
 
 ### 5. **Flujo - Módulo de Oficios**
@@ -238,14 +238,14 @@ AppBuscador/
 └──────────────────────────────────────┘
          │
          ▼
-  search_service.py
-    - Búsqueda por criterios
-    - Filtrado avanzado
+   search_service.py
+     - Búsqueda por criterios
+     - Filtrado avanzado
          │
          ▼
-  file_service.py
-    - Descarga de oficio
-    - Apertura de PDF
+   file_service.py
+     - Descarga de oficio
+     - Apertura de PDF
 ```
 
 ### 6. **Ciclo de Búsqueda**
@@ -269,15 +269,15 @@ AppBuscador/
                     │ Encontrados       │
                     └────────┬──────────┘
                              │
-                ┌────────────┼────────────┐
-                │            │            │
-                ▼            ▼            ▼
-           [Abrir]      [Descargar]  [Expediente]
-              │              │            │
-              ▼              ▼            ▼
-        file_service   file_service  file_service
-        • PDF Viewer   • Descargar   • Zip múltiples
-        • Externo      • Archivo       archivos
+                 ┌────────────┼────────────┐
+                 │            │            │
+                 ▼            ▼            ▼
+            [Abrir]      [Descargar]  [Expediente]
+               │              │            │
+               ▼              ▼            ▼
+         file_service   file_service  file_service
+         • PDF Viewer   • Descargar   • Zip múltiples
+         • Externo      • Archivo       archivos
 ```
 
 ### 7. **Cierre de Sesión y Salida**
@@ -293,8 +293,8 @@ AppBuscador/
     SESIÓN            SALIDA
        │                │
        ▼                ▼
-   LOGIN            [Cerrar]
-  (Volver)          Aplicación
+    LOGIN            [Cerrar]
+   (Volver)          Aplicación
 ```
 
 ---
@@ -494,14 +494,26 @@ Elimina:
 
 **Universidad Central del Ecuador**
 - **Unidad de Gestión de Doctorados**
-- Desarrollo de software administrativo
-- Año: 2025
+- **Facultad de Ingeniería y Ciencias Aplicadas**
+- **Carrera de Ingeniería en Ciencias de la Computación**
+
+### Versión Actual (2025-2026)
+- Wulfer Quiguango
+- Bryan Loya
+- Dennis Trujillo
+- Marielena Gonzalez
+- Mariel Milan
+
+### Versión Anterior (2024-2026)
+- Kevin Pozo
+- Jordy Chamba
+- Freddy Tapia
 
 ---
 
 ## 📜 Licencia
 
-Este proyecto está bajo la licencia **GPL-3.0**
+Este proyecto está bajo la licencia **Apache 2.0**
 
 Ver [LICENSE](LICENSE) para más detalles.
 
